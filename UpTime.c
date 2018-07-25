@@ -52,7 +52,7 @@ return 0;
 BOOL GetSystemUptime(UINT *EslapsedDay,UINT *EslapsedHour,UINT *EslapsedMin) 
 { 
 HQUERY          hQuery; 
-char            *szPathBuffer  = "\System\System Up Time"; 
+char            *szPathBuffer  = "\\System\\System Up Time"; 
 HCOUNTER        hCounter; 
 PDH_FMT_COUNTERVALUE   fmtValue; 
 DWORD           ctrType; 
